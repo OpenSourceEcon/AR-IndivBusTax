@@ -1,0 +1,22 @@
+name: ar-indivbustax-dev
+channels:
+- conda-forge
+dependencies:
+- python>=3.10,<3.12
+- ipython
+- jupyter
+- ipykernel
+- numpy
+- pandas>=1.4.4
+- bokeh>=3.4.0
+- matplotlib
+- plotly
+- pip
+- pip:
+  - fiscalsim-us
+  - cost-of-capital-calculator
+  - taxcalc
+  - bokeh_sampledata
+  - selenium
+  - geopandas
+  - openpyxl
